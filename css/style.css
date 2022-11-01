@@ -1,0 +1,54 @@
+
+
+.header-container {
+    background-color: bisque;
+    /* display: flex;
+    justify-content: space-between; 
+     align-items:center; 
+   */
+   
+}
+
+.header-content {
+    color: #F1F1F1;
+    width: 100%;
+    /* max-width: 1000px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 35px;
+}
+
+
+.aboutme-container {
+    background-color: blueviolet;
+    
+}
+
+.aboutme-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
+}
+
+.main-logo {
+    max-width: 200px;
+}
+
+.aboutme-photo {
+    max-width: 100%;
+  
+}
