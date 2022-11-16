@@ -40,8 +40,8 @@ body {
 
 .header-logo {
     Font-Family: 'Cabin', Sans-Serif;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: bold;
     color: #ff1b1b;
     line-height: 2;
     margin: 0;
@@ -51,16 +51,25 @@ body {
 
 .main-nav {
     display: none;
+   
 
 }
 
 .main-nav ul li a {
+   
     font-size: 48px;
     padding: 8px;
     color: #202020;
 }
 
 
+ .main-nav ul li a:hover {
+    border-bottom: 3px solid #FFF;
+    border-left: 0;
+    -webkit-transform-origin: 0% 100%;
+  } 
+  
+  
 .hamburger {
     position: relative;
     display: block;
@@ -92,11 +101,11 @@ body {
 }
 
 .hamburger.is-active:before {
-    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
 }
 
 .hamburger.is-active:after {
-    transform: rotate(45deg) translate(-8px, -7px);
+    transform: rotate(45deg) translate(-9px, -9px);
 }
 
 .hamburger.is-active .bar {
@@ -155,14 +164,16 @@ body {
 /*--------------project and img styling-------------------*/
 
 .project-container {
-    background-color: rgb(174, 195, 176);
+    background: url(../img/cristiano-firmani-tmTidmpILWw-unsplash.jpg)  no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 75px 0px;
+    padding: 75px 0px 250px 0px;
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 15px;
+    margin: 20px;
 }
 
 .project-content {
@@ -181,6 +192,14 @@ body {
     height: 40px;
     width: 130px;
     border-radius: 10px;
+}
+
+.project button:hover {
+   background-color: #ff1b1b;
+   transition: .6s;
+   border-color: aqua;
+   cursor: pointer;
+ 
 }
 
 .project {
@@ -238,6 +257,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 75px 0 130px 0;
+    margin: 20px;
 
 
 }
@@ -262,7 +282,8 @@ body {
 
 .footer-container {
     background-color: rgb(1, 22, 30);
-    padding: 5px 0px;
+    
+   padding: 1px 0px 1px 10px;
     position: sticky;
     bottom: 0;
 }
@@ -290,6 +311,7 @@ body {
 
     .main-nav {
         display: block;
+        
 
     }
 
@@ -303,8 +325,7 @@ body {
         color: #202020;
         list-style: none;
         text-decoration: none;
-        margin-left: 0;
-        padding-left: 0;
+      
     }
 
 
@@ -324,10 +345,7 @@ body {
 
 @media only screen and (min-width: 1200px) {
 
-.project-container {
-    padding-bottom: 200px;
-   
-}
+
 
 .project-content {
     flex-direction: column;
