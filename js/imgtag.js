@@ -1,9 +1,9 @@
 function getImageTag() {
     const imageURLs = [
 
-        "img\\IMG_1827.jpg",
-        "img\\IMG_1887.jpg",
-        "img\\IMG_2159.JPG",
+        "img\\IMG_1827.webp",
+        "img\\IMG_1887.webp",
+        "img\\IMG_2159.webp",
 
     ]
     var img = '<img src=\"';

@@ -67,6 +67,7 @@ body {
 .main-nav ul li a:hover {
     border-bottom: 3px solid #FFF;
     border-left: 0;
+    transform-origin: 0% 100%;
     -webkit-transform-origin: 0% 100%;
 }
 
@@ -165,7 +166,7 @@ body {
 /*--------------project and img styling-------------------*/
 
 .project-container {
-    background: url(../img/cristiano-firmani-tmTidmpILWw-unsplash.jpg) no-repeat;
+    background: linear-gradient(to top right, rgba(255, 0, 43, 0.2), rgba(64, 123, 167, 0.2)), url(../img/cristiano-firmani-tmTidmpILWw-unsplash.webp) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -241,9 +242,9 @@ body {
 .main-photo {
     clip-path: circle();
     background-size: cover;
-   max-width: 100%;
-   max-height: 100%;
-    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius:100px;
 
 }
 
@@ -255,9 +256,8 @@ body {
 
 .aboutme-container {
     /* background-color: rgba(0, 4, 58, 0.9); */
-    background: url(../img/mateo-nCU4yq5xDEQ-unsplash.jpg) no-repeat;
+    background: linear-gradient(to bottom right, rgba(255, 0, 43, 0.2), rgba(64, 123, 167, 0.2)), url(../img/mateo-nCU4yq5xDEQ-unsplash.webp) no-repeat center center;
     background-size: cover;
-    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +274,7 @@ body {
     align-items: center;
     Font-Family: 'Cabin', Sans-Serif;
     Font-Size: 16px;
-    color: rgb(199, 198, 198);
+    color: rgb(255, 255, 255);
 }
 
 .aboutme-content p {
